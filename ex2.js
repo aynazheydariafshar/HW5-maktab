@@ -20,6 +20,7 @@ function max(){
                 }
             }
         }
+        return maxelement
     }
     catch(err){
         return err
