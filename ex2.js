@@ -1,13 +1,15 @@
 function max(){
-
     let maxelement = arguments[0]
-    for(let i =0 ; i<arguments.length ; i++){
-        if(arguments[i] > maxelement){
-            maxelement = arguments[i]
-        }
+    let big
+    try{
+
+    }
+    catch(err){
+        return err
     }
     
-    return maxelement
 }
+console.log(max(1n, 10n, 5n))
 
-console.log(max(4,5,7,8))
+
+
