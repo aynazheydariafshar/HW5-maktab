@@ -4,7 +4,13 @@ function max(){
     try{
         if(arguments.length === 0) throw `"null"`
         for(let i = 0 ; i<arguments.length ; i++){ 
-             
+            if(typeof arguments[i] !== "bigint"){
+                if(typeof arguments[i] !== "string"){
+                    if( !Number.isInteger(arguments[i])){
+                        throw `"Big Error"`
+                    }
+                }
+            } 
         }
     }
     catch(err){
