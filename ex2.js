@@ -11,6 +11,11 @@ function max(){
                     }
                 }
             } 
+            if(arguments[i] === "" ||  (BigInt(arguments[i])  >= 2 ** 53)){
+                throw `"Big Error"`
+            }else{ 
+                
+            }
         }
     }
     catch(err){
