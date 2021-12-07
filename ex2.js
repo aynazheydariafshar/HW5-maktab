@@ -2,7 +2,7 @@ function max(){
     let maxelement = arguments[0]
     let big
     try{
-
+        if(arguments.length === 0) throw `"null"`
     }
     catch(err){
         return err
