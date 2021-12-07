@@ -3,6 +3,9 @@ function max(){
     let big
     try{
         if(arguments.length === 0) throw `"null"`
+        for(let i = 0 ; i<arguments.length ; i++){ 
+             
+        }
     }
     catch(err){
         return err
