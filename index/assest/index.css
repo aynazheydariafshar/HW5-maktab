@@ -6,7 +6,7 @@ body{
 
 @font-face {
     font-family: iransans;
-    src: url('./fonts/Iranian\ Sans.ttf');
+    src: url('./fonts/IRANSansWeb\(FaNum\)_Medium.ttf');
 }
 
 *{
@@ -70,4 +70,44 @@ body{
     background-color: #45a132;
     color: white;
     border-radius: 20px;
+}
+
+#partone{
+    text-align: center;
+}
+
+#partone h1{
+    color: rgb(99, 97, 97);
+}
+
+#parttwo{
+    margin-top: 30px;
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+.imagesdiv{
+    width: 30%;
+    margin:auto;
+}
+
+.cr img{
+    margin: 15% auto;
+}
+.cr{
+    background-color: #FFCA1D;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 0 130px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title p {
+    font-size: 20px;
+    color: rgb(134, 134, 131);
 }
