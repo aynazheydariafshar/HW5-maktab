@@ -12,6 +12,7 @@ body{
 *{
     font-family: iransans;
 }
+
 #divup{
     border-bottom: 2px solid rgb(214, 212, 212);
 }
@@ -88,6 +89,7 @@ body{
     text-align: center;
     margin-bottom: 70px;
 }
+
 .imagesdiv{
     width: 30%;
     margin:auto;
@@ -96,6 +98,7 @@ body{
 .cr img{
     margin: 15% auto;
 }
+
 .cr{
     background-color: #FFCA1D;
     width: 160px;
@@ -172,12 +175,15 @@ body{
        display: flex;
        flex-direction: column;
     }
+
     .imagesdiv{
         width: 100%;
     }
+
     .cr{
         padding: 15px;
     }
+
     #partfour{
         display: flex;
         flex-direction: column;
@@ -204,5 +210,4 @@ body{
     #partone h1{
         font-size: 20px;
     }
-
 }
